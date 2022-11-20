@@ -1,0 +1,21 @@
+button::before{
+    content:"Pasa por encima";
+}
+
+button::after{
+    content:"hecho";
+    opacity:0;
+}
+
+button:hover::before{
+     color:white;
+     background-color:green;
+     content:"";
+     opacity:1;
+}
+
+button:hover::after{
+     color:white;
+     background-color:green;
+     opacity:1;
+}
